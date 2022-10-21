@@ -1,0 +1,41 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ant-pagination-item-active a {
+  background-color: var(--color-background-muted) !important;
+  color:  var(--color-text-secondary) !important;
+}
+
+.ant-pagination-item a {
+  background-color: var(--color-background-muted) !important;
+  color:  var(--color-text-secondary) !important;
+}
+
+.ant-pagination-prev button, .ant-pagination-next button {
+  background-color: var(--color-background-muted) !important;
+  color:  var(--color-text-secondary) !important;
+}
+
+.ant-pagination {
+  background-color: var(--color-background) !important;
+  color:  var(--color-text-secondary) !important;
+}
+
+.ant-select .ant-select-selector {
+  background-color: var(--color-background-muted) !important;
+  color:  var(--color-text-secondary) !important;
+}
